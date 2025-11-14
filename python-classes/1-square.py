@@ -9,3 +9,4 @@ class Square:
     """ initializes a square object with parameters
     args:
         __size(int): size of the square """
+
