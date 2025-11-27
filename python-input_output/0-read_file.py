@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-def read_file(filename=""):
-    """Reads a UTF-8 text file and prints its contents to stdout."""
-    with open(filename, "r", encoding="utf-8") as f:
-        print(f.read(), end="")
+""" define a fuction that reads text files """
 
+
+def read_file(filename=""):
+    """a fuction to read text """
+    with open(filename, 'r', encoding='UTF8') as b:
+        print(b.read(), end='')
