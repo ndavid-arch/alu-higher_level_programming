@@ -2,11 +2,11 @@
 
 const args = process.argv.slice(2);
 if (args.length === 0) {
-	console.log('No arguments');
+	console.log('No argument');
 }
 else if (args.length === 1){
-	console.log ('Argument passed');
+	console.log ('Argument found');
 }
 else {
-	console.log('Arguments passsed');
+	console.log('Arguments found');
 }
